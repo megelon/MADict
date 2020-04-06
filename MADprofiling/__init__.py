@@ -1,1 +1,1 @@
-from profiling.madprofiling import madprofiling
+from madprofiling.madprofiling import madprofiling
