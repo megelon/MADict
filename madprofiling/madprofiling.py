@@ -1,3 +1,5 @@
+import pandas as pd
+
 class madprofiling(df):
     
     def madunique(df):
