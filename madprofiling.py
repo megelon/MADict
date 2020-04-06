@@ -5,7 +5,9 @@ def madunique(df):
         unique.append(len(df[var_i].unique()))
     df_unique=pd.DataFrame(unique,index=list(df.columns))
     df_unique.columns=['unique']
-    return df_uniquedef madprofiling(df):
+    return df_unique
+
+def madprofiling(df):
     profiling=pd.DataFrame(df.dtypes)
     profiling.columns=['type']
     profiling.loc[profiling.type=='object', 'categorical'] = 1  
