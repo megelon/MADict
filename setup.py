@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'MADprofiling',         # How you named your package folder (MyLib)
-  packages = ['MADprofiling'],   # Chose the same as "name"
+  name = 'madprofiling',         # How you named your package folder (MyLib)
+  packages = ['madprofiling'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Con profiling tenemos una vista 360° del data set. Sabemos el formato de cada campo (‘type’), sabemos si el campo es categorico o no (‘categorical’), sabemos el total de registros de cada campo (‘total’), el número de registros únicos por campo (‘unique’), el número de registros nulos por campo (‘null’), el número de registros tipo ‘na’ por campo y finalmente el porcentaje de registros tipo null y tipo na por campo.',   # Give a short description about your library
