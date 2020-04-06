@@ -4,11 +4,11 @@ setup(
   packages = ['madprofiling'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Con profiling tenemos una vista 360° del data set. Sabemos el formato de cada campo (‘type’), sabemos si el campo es categorico o no (‘categorical’), sabemos el total de registros de cada campo (‘total’), el número de registros únicos por campo (‘unique’), el número de registros nulos por campo (‘null’), el número de registros tipo ‘na’ por campo y finalmente el porcentaje de registros tipo null y tipo na por campo.',   # Give a short description about your library
+  description = 'Primer paso para empezar a trabajar los datos, conocerlos.',   # Give a short description about your library
   author = 'Miguel Angel Diaz Rodriguez',                   # Type in your name
   author_email = 'ma.diaz216@uniandes.edu.co',      # Type in your E-Mail
   url = 'https://github.com/megelon/MADict',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/megelon/MADict/archive/v_01.2.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/megelon/MADict/archive/v_02.tar.gz',    # I explain this later on
   keywords = ['PROFILING', 'DATA', 'UNDERSTANDING'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'numpy',
