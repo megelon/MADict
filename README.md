@@ -2,8 +2,6 @@
 
 MADictionary is a set of functions to facilitate data understanding.
 
-  - Type some Markdown on the left
-
 > Data understanding is even more important than 
 > modeling
 
