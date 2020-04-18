@@ -1,5 +1,7 @@
 # MADictionary
 
+[![Build Status](https://travis-ci.com/megelon/MADict.svg?branch=master)](https://travis-ci.com/github/megelon/MADict/jobs/320670871/config)
+
 MADictionary is a set of functions to facilitate data understanding.
 
 > Data understanding is even more important than 
